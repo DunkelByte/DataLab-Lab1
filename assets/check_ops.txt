@@ -1,0 +1,24 @@
+$ ./check_ops.py bits.c
+signMask: 1/2 operators
+bitXor: 7/8 operators
+negativePart: 4/6 operators
+copyByteWithin: 9/12 operators
+logicalShift: 6/20 operators
+swapNibblePairs: 9/18 operators
+secondLowestZeroBit: 5/8 operators
+oddParity: 12/56 operators
+rotateRightBits: 12/16 operators
+roundEvenPow2: 10/24 operators
+midpointTowardFirst: 18/32 operators
+isBetweenEitherOrder: 28/48 operators
+mul5Sat: 17/30 operators
+classifyAdd3: 20/52 operators
+floatScaleThreeHalves: 27/60 operators
+floatRoundEven: 24/65 operators
+float_i2f: 20/40 operators
+bitCount: 24/40 operators
+bitReverse: 34/34 operators
+All 19 functions passed operator checks.
+
+[exit 0] 2026-10-03 00:40:40 +08:00
+bits.c SHA256: 0147e637da0fd64b607f624c215bafaad013142e004fdcf076b743ee7dce01ac
