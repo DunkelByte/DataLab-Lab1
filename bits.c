@@ -1,7 +1,7 @@
 /* 
  * CS:APP Data Lab 
  * 
- * <Please put your name and userid here>
+ * <吴梓霆 24300120064>
  * 
  * bits.c - Source file with your solutions to the Lab.
  *          This is the file you will hand in to your instructor.
@@ -478,7 +478,6 @@ unsigned float_i2f(int x) {
  *   Rating: 10
  */
 int bitCount(int x) {
-  /* Derive the lane masks, then sum 1-, 2-, 4-, 8-, and 16-bit groups. */
   int m8 = 255 | (255 << 16);
   int m4 = m8 ^ (m8 << 4);
   int m2 = m4 ^ (m4 << 2);
@@ -502,7 +501,6 @@ int bitCount(int x) {
  */
 int bitReverse(int x)
 {
-  /* Adjacent mask widths follow from XOR with a shifted wider mask. */
   int m8 = 255 | (255 << 16);
   int m4 = m8 ^ (m8 << 4);
   int m2 = m4 ^ (m4 << 2);
